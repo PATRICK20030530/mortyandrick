@@ -1,0 +1,25 @@
+Unsupposrted library path: C:\Users\Administrator\Desktop\MyMod\build\classes\api
+Unsupposrted library path: C:\Users\Administrator\Desktop\MyMod\build\resources\api
+Symbol range map extraction starting
+Processing 7 files
+startProcessing "com/test/testmod/Main.java" md5: 352e1db509f954076997cdd4d61e6ac2
+endProcessing "com/test/testmod/Main.java"
+
+startProcessing "com/test/testmod/ModInfo.java" md5: a7d919b1b4f26d1f37d68675a03102a5
+endProcessing "com/test/testmod/ModInfo.java"
+
+startProcessing "com/test/testmod/init/ModItems.java" md5: ae476bc8f410bf94aa9933f295974e5d
+endProcessing "com/test/testmod/init/ModItems.java"
+
+startProcessing "com/test/testmod/items/ItemKingPickaxe.java" md5: 7117b25fc105b93ae598ddb41361f6c4
+endProcessing "com/test/testmod/items/ItemKingPickaxe.java"
+
+startProcessing "com/test/testmod/proxy/ClientProxy.java" md5: 86cdf50dfdf5f33902eb55a0f5ef06f5
+endProcessing "com/test/testmod/proxy/ClientProxy.java"
+
+startProcessing "com/test/testmod/proxy/CommonProxy.java" md5: 41cce9657803fbc92dc49d6398350d2a
+endProcessing "com/test/testmod/proxy/CommonProxy.java"
+
+startProcessing "com/test/testmod/proxy/ServerProxy.java" md5: 65578ae4b8ea01200472f9114e666c26
+endProcessing "com/test/testmod/proxy/ServerProxy.java"
+

@@ -1,0 +1,172 @@
+Unsupposrted library path: C:\Users\Administrator\Desktop\MyMod\build\classes\api
+Unsupposrted library path: C:\Users\Administrator\Desktop\MyMod\build\resources\api
+Symbol range map extraction starting
+Processing 7 files
+startProcessing "com/test/testmod/Main.java" md5: 352e1db509f954076997cdd4d61e6ac2
+@|com/test/testmod/Main.java|8|24|com.test.testmod|package|com.test.testmod|(file)
+Class Start: com.test.testmod.Main
+   @|com/test/testmod/Main.java|465|468|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|com/test/testmod/Main.java|469|474|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com/test/testmod/Main.java|477|484|ModInfo|class|com.test.testmod.ModInfo|false
+   @|com/test/testmod/Main.java|485|490|MODID|field|com.test.testmod.ModInfo|MODID
+   @|com/test/testmod/Main.java|492|496|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com/test/testmod/Main.java|499|506|ModInfo|class|com.test.testmod.ModInfo|false
+   @|com/test/testmod/Main.java|507|511|NAME|field|com.test.testmod.ModInfo|NAME
+   @|com/test/testmod/Main.java|513|520|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com/test/testmod/Main.java|523|530|ModInfo|class|com.test.testmod.ModInfo|false
+   @|com/test/testmod/Main.java|531|538|VERSION|field|com.test.testmod.ModInfo|VERSION
+   @|com/test/testmod/Main.java|540|565|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
+   @|com/test/testmod/Main.java|568|575|ModInfo|class|com.test.testmod.ModInfo|false
+   @|com/test/testmod/Main.java|576|600|ACCEPT_MINECRAFT_VERSION|field|com.test.testmod.ModInfo|ACCEPT_MINECRAFT_VERSION
+   @|com/test/testmod/Main.java|615|619|Main|class|com.test.testmod.Main|false
+   @|com/test/testmod/Main.java|738|749|CommonProxy|class|com.test.testmod.proxy.CommonProxy|false
+   @|com/test/testmod/Main.java|627|637|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
+   @|com/test/testmod/Main.java|638|648|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com/test/testmod/Main.java|651|658|ModInfo|class|com.test.testmod.ModInfo|false
+   @|com/test/testmod/Main.java|659|677|CLIENT_PROXY_CLASS|field|com.test.testmod.ModInfo|CLIENT_PROXY_CLASS
+   @|com/test/testmod/Main.java|679|689|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com/test/testmod/Main.java|692|699|ModInfo|class|com.test.testmod.ModInfo|false
+   @|com/test/testmod/Main.java|700|718|SERVER_PROXY_CLASS|field|com.test.testmod.ModInfo|SERVER_PROXY_CLASS
+   @|com/test/testmod/Main.java|738|749|CommonProxy|class|com.test.testmod.proxy.CommonProxy|false
+   @|com/test/testmod/Main.java|750|755|proxy|field|com.test.testmod.Main|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/test/testmod/Main.java|832|837|event|param|com.test.testmod.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/test/testmod/Main.java|763|775|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/test/testmod/Main.java|792|799|preInit|method|com.test.testmod.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/test/testmod/Main.java|806|831|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|com/test/testmod/Main.java|849|857|ModItems|class|com.test.testmod.init.ModItems|false
+      @|com/test/testmod/Main.java|858|862|init|method|com.test.testmod.init.ModItems|init|()V
+      @|com/test/testmod/Main.java|874|879|proxy|field|com.test.testmod.Main|proxy
+      @|com/test/testmod/Main.java|880|884|init|method|com.test.testmod.proxy.CommonProxy|init|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/test/testmod/Main.java|963|968|event|param|com.test.testmod.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/test/testmod/Main.java|900|912|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/test/testmod/Main.java|929|933|init|method|com.test.testmod.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/test/testmod/Main.java|940|962|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: Postinit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/test/testmod/Main.java|1056|1061|event|param|com.test.testmod.Main|Postinit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com/test/testmod/Main.java|985|997|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|com/test/testmod/Main.java|1014|1022|Postinit|method|com.test.testmod.Main|Postinit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/test/testmod/Main.java|1029|1055|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent|false
+   Method End: Postinit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.test.testmod.Main
+endProcessing "com/test/testmod/Main.java"
+
+startProcessing "com/test/testmod/ModInfo.java" md5: a7d919b1b4f26d1f37d68675a03102a5
+@|com/test/testmod/ModInfo.java|8|24|com.test.testmod|package|com.test.testmod|(file)
+Class Start: com.test.testmod.ModInfo
+   @|com/test/testmod/ModInfo.java|42|49|ModInfo|class|com.test.testmod.ModInfo|false
+   @|com/test/testmod/ModInfo.java|76|82|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|76|82|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|83|88|MODID|field|com.test.testmod.ModInfo|MODID|
+   @|com/test/testmod/ModInfo.java|124|130|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|124|130|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|131|135|NAME|field|com.test.testmod.ModInfo|NAME|
+   @|com/test/testmod/ModInfo.java|174|180|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|174|180|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|181|188|VERSION|field|com.test.testmod.ModInfo|VERSION|
+   @|com/test/testmod/ModInfo.java|225|231|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|225|231|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|232|256|ACCEPT_MINECRAFT_VERSION|field|com.test.testmod.ModInfo|ACCEPT_MINECRAFT_VERSION|
+   @|com/test/testmod/ModInfo.java|296|302|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|296|302|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|303|321|CLIENT_PROXY_CLASS|field|com.test.testmod.ModInfo|CLIENT_PROXY_CLASS|
+   @|com/test/testmod/ModInfo.java|387|393|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|387|393|String|class|java.lang.String|false
+   @|com/test/testmod/ModInfo.java|394|412|SERVER_PROXY_CLASS|field|com.test.testmod.ModInfo|SERVER_PROXY_CLASS|
+Class End  : com.test.testmod.ModInfo
+endProcessing "com/test/testmod/ModInfo.java"
+
+startProcessing "com/test/testmod/init/ModItems.java" md5: ae476bc8f410bf94aa9933f295974e5d
+@|com/test/testmod/init/ModItems.java|8|29|com.test.testmod.init|package|com.test.testmod.init|(file)
+Class Start: com.test.testmod.init.ModItems
+   @|com/test/testmod/init/ModItems.java|360|368|ModItems|class|com.test.testmod.init.ModItems|false
+   @|com/test/testmod/init/ModItems.java|390|401|ItemPickaxe|class|net.minecraft.item.ItemPickaxe|false
+   @|com/test/testmod/init/ModItems.java|390|401|ItemPickaxe|class|net.minecraft.item.ItemPickaxe|false
+   @|com/test/testmod/init/ModItems.java|402|410|itemking|field|com.test.testmod.init.ModItems|itemking|
+   @|com/test/testmod/init/ModItems.java|417|432|ItemKingPickaxe|class|com.test.testmod.items.ItemKingPickaxe|false
+   Method Start: init()V
+      @|com/test/testmod/init/ModItems.java|462|466|init|method|com.test.testmod.init.ModItems|init|()V
+      @|com/test/testmod/init/ModItems.java|478|493|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries|false
+      @|com/test/testmod/init/ModItems.java|494|499|ITEMS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ITEMS
+      @|com/test/testmod/init/ModItems.java|500|508|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com/test/testmod/init/ModItems.java|509|517|itemking|field|com.test.testmod.init.ModItems|itemking
+   Method End: init()V
+   Method Start: register()V
+      @|com/test/testmod/init/ModItems.java|553|561|register|method|com.test.testmod.init.ModItems|register|()V
+      @|com/test/testmod/init/ModItems.java|574|586|registerinit|method|com.test.testmod.init.ModItems|registerinit|(Lnet/minecraft/item/Item;)V
+      @|com/test/testmod/init/ModItems.java|587|595|itemking|field|com.test.testmod.init.ModItems|itemking
+   Method End: register()V
+   Method Start: registerinit(Lnet/minecraft/item/Item;)V
+      @|com/test/testmod/init/ModItems.java|653|657|item|param|com.test.testmod.init.ModItems|registerinit|(Lnet/minecraft/item/Item;)V|item|0
+      @|com/test/testmod/init/ModItems.java|635|647|registerinit|method|com.test.testmod.init.ModItems|registerinit|(Lnet/minecraft/item/Item;)V
+      @|com/test/testmod/init/ModItems.java|648|652|Item|class|net.minecraft.item.Item|false
+      @|com/test/testmod/init/ModItems.java|669|680|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|com/test/testmod/init/ModItems.java|681|711|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com/test/testmod/init/ModItems.java|712|716|item|param|com.test.testmod.init.ModItems|registerinit|(Lnet/minecraft/item/Item;)V|item|0
+      @|com/test/testmod/init/ModItems.java|723|744|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+      @|com/test/testmod/init/ModItems.java|745|749|item|param|com.test.testmod.init.ModItems|registerinit|(Lnet/minecraft/item/Item;)V|item|0
+      @|com/test/testmod/init/ModItems.java|750|765|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerinit(Lnet/minecraft/item/Item;)V
+Class End  : com.test.testmod.init.ModItems
+endProcessing "com/test/testmod/init/ModItems.java"
+
+startProcessing "com/test/testmod/items/ItemKingPickaxe.java" md5: 7117b25fc105b93ae598ddb41361f6c4
+@|com/test/testmod/items/ItemKingPickaxe.java|8|30|com.test.testmod.items|package|com.test.testmod.items|(file)
+Class Start: com.test.testmod.items.ItemKingPickaxe
+   @|com/test/testmod/items/ItemKingPickaxe.java|222|237|ItemKingPickaxe|class|com.test.testmod.items.ItemKingPickaxe|false
+   @|com/test/testmod/items/ItemKingPickaxe.java|246|257|ItemPickaxe|class|net.minecraft.item.ItemPickaxe|false
+   @|com/test/testmod/items/ItemKingPickaxe.java|285|302|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial|false
+   @|com/test/testmod/items/ItemKingPickaxe.java|285|302|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial|false
+   @|com/test/testmod/items/ItemKingPickaxe.java|303|311|itemking|field|com.test.testmod.items.ItemKingPickaxe|itemking|
+   @|com/test/testmod/items/ItemKingPickaxe.java|314|324|EnumHelper|class|net.minecraftforge.common.util.EnumHelper|false
+   @|com/test/testmod/items/ItemKingPickaxe.java|325|340|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   Method Start: ItemKingPickaxe()V
+      @|com/test/testmod/items/ItemKingPickaxe.java|396|411|ItemKingPickaxe|method|com.test.testmod.items.ItemKingPickaxe|ItemKingPickaxe|()V
+      @|com/test/testmod/items/ItemKingPickaxe.java|430|438|itemking|field|com.test.testmod.items.ItemKingPickaxe|itemking
+      @|com/test/testmod/items/ItemKingPickaxe.java|450|468|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com/test/testmod/items/ItemKingPickaxe.java|491|506|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com/test/testmod/items/ItemKingPickaxe.java|529|543|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com/test/testmod/items/ItemKingPickaxe.java|544|556|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs|false
+      @|com/test/testmod/items/ItemKingPickaxe.java|557|563|COMBAT|field|net.minecraft.creativetab.CreativeTabs|COMBAT
+      @|com/test/testmod/items/ItemKingPickaxe.java|575|590|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+   Method End: ItemKingPickaxe()V
+Class End  : com.test.testmod.items.ItemKingPickaxe
+endProcessing "com/test/testmod/items/ItemKingPickaxe.java"
+
+startProcessing "com/test/testmod/proxy/ClientProxy.java" md5: 86cdf50dfdf5f33902eb55a0f5ef06f5
+@|com/test/testmod/proxy/ClientProxy.java|8|30|com.test.testmod.proxy|package|com.test.testmod.proxy|(file)
+Class Start: com.test.testmod.proxy.ClientProxy
+   @|com/test/testmod/proxy/ClientProxy.java|90|101|ClientProxy|class|com.test.testmod.proxy.ClientProxy|false
+   @|com/test/testmod/proxy/ClientProxy.java|113|124|CommonProxy|class|com.test.testmod.proxy.CommonProxy|false
+   Method Start: init()V
+      @|com/test/testmod/proxy/ClientProxy.java|143|147|init|method|com.test.testmod.proxy.CommonProxy|init|()V
+      @|com/test/testmod/proxy/ClientProxy.java|160|168|ModItems|class|com.test.testmod.init.ModItems|false
+      @|com/test/testmod/proxy/ClientProxy.java|169|177|register|method|com.test.testmod.init.ModItems|register|()V
+   Method End: init()V
+Class End  : com.test.testmod.proxy.ClientProxy
+endProcessing "com/test/testmod/proxy/ClientProxy.java"
+
+startProcessing "com/test/testmod/proxy/CommonProxy.java" md5: 41cce9657803fbc92dc49d6398350d2a
+@|com/test/testmod/proxy/CommonProxy.java|8|30|com.test.testmod.proxy|package|com.test.testmod.proxy|(file)
+Class Start: com.test.testmod.proxy.CommonProxy
+   @|com/test/testmod/proxy/CommonProxy.java|52|63|CommonProxy|class|com.test.testmod.proxy.CommonProxy|false
+   Method Start: init()V
+      @|com/test/testmod/proxy/CommonProxy.java|79|83|init|method|com.test.testmod.proxy.CommonProxy|init|()V
+   Method End: init()V
+Class End  : com.test.testmod.proxy.CommonProxy
+endProcessing "com/test/testmod/proxy/CommonProxy.java"
+
+startProcessing "com/test/testmod/proxy/ServerProxy.java" md5: 65578ae4b8ea01200472f9114e666c26
+@|com/test/testmod/proxy/ServerProxy.java|8|30|com.test.testmod.proxy|package|com.test.testmod.proxy|(file)
+Class Start: com.test.testmod.proxy.ServerProxy
+   @|com/test/testmod/proxy/ServerProxy.java|48|59|ServerProxy|class|com.test.testmod.proxy.ServerProxy|false
+   @|com/test/testmod/proxy/ServerProxy.java|71|82|CommonProxy|class|com.test.testmod.proxy.CommonProxy|false
+   Method Start: init()V
+      @|com/test/testmod/proxy/ServerProxy.java|101|105|init|method|com.test.testmod.proxy.CommonProxy|init|()V
+   Method End: init()V
+Class End  : com.test.testmod.proxy.ServerProxy
+endProcessing "com/test/testmod/proxy/ServerProxy.java"
+
